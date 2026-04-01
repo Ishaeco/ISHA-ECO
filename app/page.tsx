@@ -29,11 +29,11 @@ const heroWords = ["Waste Management", "Resource Recovery", "Zero-Waste Future"]
 
 const servicesData = [
   { id: 0, title: "Advanced Dry Recycling", short: "Dry Recycling", desc: "Processing plastics, paper, glass, and metals into circular economy products.", video: "/video1.mp4" },
-  { id: 1, title: "Organic Bioconversion", short: "Bioconversion", desc: "Food and yard waste transformation into nutrient-rich soil additives via BSFL.", video: "/Video2.mp4" },
-  { id: 2, title: "Sanitary Landfilling", short: "Landfilling", desc: "Engineered disposal featuring advanced leachate collection to prevent groundwater contamination.", video: "/Video3.mp4" },
-  { id: 3, title: "Waste-To-Energy (W-T-E)", short: "W-T-E", desc: "Converting non-recyclable municipal waste into clean heat and electricity.", video: "/Video4.mp4" },
-  { id: 4, title: "Thermal Incineration", short: "Incineration", desc: "High-temperature treatment reducing waste volume by 99.7% and eliminating hazardous characteristics.", video: "/Video5.mp4" },
-  { id: 5, title: "MBT Infrastructure", short: "MBT Plants", desc: "Mechanical & Biological Treatment combining physical sorting with biological stabilization.", video: "/Video6.mp4" },
+  { id: 1, title: "Organic Bioconversion", short: "Bioconversion", desc: "Food and yard waste transformation into nutrient-rich soil additives via BSFL.", video: "/video2.mp4" },
+  { id: 2, title: "Sanitary Landfilling", short: "Landfilling", desc: "Engineered disposal featuring advanced leachate collection to prevent groundwater contamination.", video: "/video3.mp4" },
+  { id: 3, title: "Waste-To-Energy (W-T-E)", short: "W-T-E", desc: "Converting non-recyclable municipal waste into clean heat and electricity.", video: "/video4.mp4" },
+  { id: 4, title: "Thermal Incineration", short: "Incineration", desc: "High-temperature treatment reducing waste volume by 99.7% and eliminating hazardous characteristics.", video: "/video5.mp4" },
+  { id: 5, title: "MBT Infrastructure", short: "MBT Plants", desc: "Mechanical & Biological Treatment combining physical sorting with biological stabilization.", video: "/video6.mp4" },
 ];
 
 const projectsData = [
@@ -63,7 +63,7 @@ const equipmentList = [
   { id: 7, name: "Leachate Treatment", image: "/Equipment7.jpg" },
   { id: 8, name: "Composting Plants", image: "/Equipment8.jpeg" },
   { id: 9, name: "Eco -Bean machine", image: "/Equipment9.jpg" },
-  { id: 10, name: "Conveyer Belts", image: "/Equipment10.jpg" },
+  { id: 10, name: "Conveyer Belts", image: "/equipment10.jpg" },
 ];
 
 export default function Home() {
