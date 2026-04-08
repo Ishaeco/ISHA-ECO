@@ -34,7 +34,7 @@ const servicesData = [
   { id: 2, title: "Sanitary Landfilling", short: "Landfilling", desc: "Engineered disposal featuring advanced leachate collection to prevent groundwater contamination.", image: "/service3.jpeg" },
   { id: 3, title: "Waste-To-Energy (W-T-E)", short: "W-T-E", desc: "Converting non-recyclable municipal waste into clean heat and electricity.", image: "/service4.jpg" },
   { id: 4, title: "Thermal Incineration", short: "Incineration", desc: "High-temperature treatment reducing waste volume by 99.7% and eliminating hazardous characteristics.", image: "/Service6.jpeg" },
-  { id: 5, title: "MBT Infrastructure", short: "MBT Plants", desc: "Mechanical & Biological Treatment combining physical sorting with biological stabilization.", image: "/Service5.jpeg" },
+  { id: 5, title: "MBT Infrastructure", short: "MBT Plants", desc: "Mechanical & Biological Treatment combining physical sorting with biological stabilization.", image: "/service5.jpeg" },
 ];
 
 const projectsData = [
@@ -64,7 +64,7 @@ const equipmentList = [
   { id: 7, name: "Leachate Treatment", image: "/Equipment7.jpg" },
   { id: 8, name: "Composting Plants", image: "/Equipment8.jpeg" },
   { id: 9, name: "Eco -Bean machine", image: "/Equipment9.jpg" },
-  { id: 10, name: "Conveyer Belts", image: "/Equipment10.jpg" },
+  { id: 10, name: "Conveyer Belts", image: "/equipment10.jpg" },
 ];
 
 export default function Home() {
