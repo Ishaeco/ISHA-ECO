@@ -27,13 +27,14 @@ const TechLinesBackground = () => (
 // --- DATA ---
 const heroWords = ["Waste Management", "Resource Recovery", "Zero-Waste Future"];
 
+// UPDATED: Swapped 'video' keys for 'image' keys
 const servicesData = [
-  { id: 0, title: "Advanced Dry Recycling", short: "Dry Recycling", desc: "Processing plastics, paper, glass, and metals into circular economy products.", video: "/video1.mp4" },
-  { id: 1, title: "Organic Bioconversion", short: "Bioconversion", desc: "Food and yard waste transformation into nutrient-rich soil additives via BSFL.", video: "/video2.mp4" },
-  { id: 2, title: "Sanitary Landfilling", short: "Landfilling", desc: "Engineered disposal featuring advanced leachate collection to prevent groundwater contamination.", video: "/video3.mp4" },
-  { id: 3, title: "Waste-To-Energy (W-T-E)", short: "W-T-E", desc: "Converting non-recyclable municipal waste into clean heat and electricity.", video: "/video4.mp4" },
-  { id: 4, title: "Thermal Incineration", short: "Incineration", desc: "High-temperature treatment reducing waste volume by 99.7% and eliminating hazardous characteristics.", video: "/video5.mp4" },
-  { id: 5, title: "MBT Infrastructure", short: "MBT Plants", desc: "Mechanical & Biological Treatment combining physical sorting with biological stabilization.", video: "/video6.mp4" },
+  { id: 0, title: "Advanced Dry Recycling", short: "Dry Recycling", desc: "Processing plastics, paper, glass, and metals into circular economy products.", image: "/service1.jpeg" },
+  { id: 1, title: "Organic Bioconversion", short: "Bioconversion", desc: "Food and yard waste transformation into nutrient-rich soil additives via BSFL.", image: "/service2.png" },
+  { id: 2, title: "Sanitary Landfilling", short: "Landfilling", desc: "Engineered disposal featuring advanced leachate collection to prevent groundwater contamination.", image: "/service3.jpeg" },
+  { id: 3, title: "Waste-To-Energy (W-T-E)", short: "W-T-E", desc: "Converting non-recyclable municipal waste into clean heat and electricity.", image: "/service4.jpg" },
+  { id: 4, title: "Thermal Incineration", short: "Incineration", desc: "High-temperature treatment reducing waste volume by 99.7% and eliminating hazardous characteristics.", image: "/Service6.jpeg" },
+  { id: 5, title: "MBT Infrastructure", short: "MBT Plants", desc: "Mechanical & Biological Treatment combining physical sorting with biological stabilization.", image: "/Service5.jpeg" },
 ];
 
 const projectsData = [
@@ -63,7 +64,7 @@ const equipmentList = [
   { id: 7, name: "Leachate Treatment", image: "/Equipment7.jpg" },
   { id: 8, name: "Composting Plants", image: "/Equipment8.jpeg" },
   { id: 9, name: "Eco -Bean machine", image: "/Equipment9.jpg" },
-  { id: 10, name: "Conveyer Belts", image: "/equipment10.jpg" },
+  { id: 10, name: "Conveyer Belts", image: "/Equipment10.jpg" },
 ];
 
 export default function Home() {
@@ -241,7 +242,8 @@ export default function Home() {
                  className="absolute w-[200px] h-[200px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden shadow-[0_0_40px_rgba(16,185,129,0.2)] border-4 border-[#081017] pointer-events-auto cursor-pointer"
                  onClick={() => setActiveService(idx)}
                >
-                  <video src={service.video} autoPlay loop muted playsInline className="w-full h-full object-cover" />
+                  {/* UPDATED: Swapped <video> tag for <img> tag to display static images */}
+                  <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
                </motion.div>
              )
           })}
@@ -421,7 +423,7 @@ export default function Home() {
               <span className="text-xl md:text-3xl text-orange-400">SOLUTIONS</span>
            </div>
            
-           <p className="font-medium text-xs md:text-sm">© 2026 ISHA ECO SOLUTIONS. <br className="block md:hidden" />Engineering a Zero-Waste Future.</p>
+           <p className="font-medium text-xs md:text-sm">ISHA ECO SOLUTIONS. <br className="block md:hidden" />Engineering a Zero-Waste Future.</p>
            <div className="flex items-center justify-center gap-2 md:gap-3 text-xs md:text-sm font-bold"><MapPin size={16} className="md:w-5 md:h-5 text-orange-400" /> Hyderabad, India.</div>
         </div>
       </footer>
